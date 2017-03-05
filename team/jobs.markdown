@@ -3,8 +3,6 @@ title: Jobs
 date: 2017-03-05 15:48:00 +01:00
 ---
 
-# Jobs
-
 Unsere verantwortungsvolle Tätigkeit erfordert umfangreiche Fachkenntnisse in der
 Immobilienwirtschaft und vollste Leidenschaft für unsere Arbeit.
 
