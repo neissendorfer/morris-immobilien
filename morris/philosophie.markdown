@@ -12,18 +12,26 @@ Aufgrund unserer generationenübergreifenden Tradition fühlen wir uns den Tug
 
 Am Gewinn unserer Unternehmensgruppe lassen wir durch soziales Engagement die Gesellschaft teilhaben. Uns ist bewusst, dass wir ein sehr angenehmes Leben führen dürfen und möchten Menschen unterstützen, die dieses Glück nicht haben. Aus diesem Grund engagieren wir uns sowohl finanziell als auch durch ehrenamtliche Mitarbeit bei verschiedenen Projekten:
 
-**Logo KIT**
+## KIT
+
+![kit.jpg](/uploads/kit.jpg)
 
 Das Kriseninterventionsteam (KIT) übernimmt im Münchener Rettungsdienst ehrenamtlich die psychosoziale Notfallversorgung. Es betreut direkt am Einsatzort Augenzeugen sowie Beteiligte von schlimmen Unfällen oder Selbsttötungen, Opfer von Vergewaltigungen, Geiselnahmen sowie anderen Gewaltverbrechen und überbringt gemeinsam mit der Polizei unerwartete Todesnachrichten an die nächsten Angehörigen. Einer der ehrenamtlichen Einsatzkräfte des KIT ist unser Geschäftsführer Alexander Neißendorfer.
 
-**Logo MHW**
+## MHW
+
+![mhw.jpg](/uploads/mhw.jpg)
 
 Das MHW – Medizinisches Katastrophenhilfswerk Deutschland e.V. leistet mit seinen Experten weltweit schnelle und effiziente humanitäre Hilfe bei Erdbeben, Überschwemmungen und anderen Naturkatastrophen.
 
-**Logo IHK München**
+## IHK München
+
+![ihk.jpg](/uploads/ihk.jpg)
 
 Bei der Industrie- und Handelskammer sind wir seit vielen Jahren als Ausbilder und ehrenamtliche Prüfer für Immobilienkaufleute und Immobilienfachwirte tätig. Schulen und Bildungseinrichtungen stehen wir für Berufsinformationsabende oder Projekttage zur Verfügung, um die beruflichen Möglichkeiten in der Immobilienbranche aufzuzeigen und jungen Menschen bei ihrem Start ins Berufsleben mit Rat und Tat zur Seite zu stehen.
 
-**Logo World Vision**
+## World Vision
+
+![worldvision.jpg](/uploads/worldvision.jpg)
 
 Mit jedem Erwerb einer Immobilie übernehmen wir dauerhaft eine Kinderpatenschaft bei World Vision. Mit unserer monatlichen finanziellen Zuwendung wird sicher gestellt, dass das Kind Zugang zu Schulbildung, sauberem Wasser und nahrhaftem Essen erhält sowie regelmäßig ärztlich untersucht und geimpft wird. Auch die Familie des Kindes sowie die Dorfgemeinschaft werden im Hinblick auf eine nachhaltige Entwicklungsarbeit von unseren Beiträgen unterstützt, beispielsweise durch Brunnenbohrungen sowie Schulungen über Ackerbau und Hygiene. Inzwischen haben wir zahlreiche Patenkinder in Asien, Afrika und Lateinamerika, denen wir ein einigermaßen sorgenfreies Erwachsenwerden und eine Lebensperspektive ermöglichen können.

@@ -3,6 +3,8 @@ title: Investoren
 date: 2017-03-05 16:02:00 +01:00
 ---
 
+![investoren.jpg](/uploads/investoren.jpg)
+
 Hinter Morris Immobilien stehen die beiden geschäftsführenden Gesellschafter Franz Ludwig Neißendorfer und Alexander Neißendorfer, die unsere Unternehmensgruppe seit 2005 gemeinsam aufgebaut haben und bis heute leiten. Das erforderliche Kapital für die ersten Immobilieninvestments entstammte dem Familienvermögen. Mittlerweile generiert Morris Immobilien durch Mieten und Veräußerungen ausreichend Liquidität, um damit weitere Grundstückskäufe finanzieren und organisch wachsen zu können.
 
 Zusätzliches Kapital wird bei Bedarf aus dem persönlichen Umfeld der Familie Neißendorfer zur Verfügung gestellt. Dieser Investorenkreis lässt sich an zwei Händen abzählen und besteht aus langjährigen Geschäftspartnern und Freunden, die zusammen mit uns Kapital in Grundbesitz anlegen möchten.

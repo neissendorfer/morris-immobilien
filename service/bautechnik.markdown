@@ -3,6 +3,8 @@ title: Bautechnik
 date: 2017-03-05 15:53:00 +01:00
 ---
 
+![bautechnik.jpg](/uploads/bautechnik.jpg)
+
 Die Immobilienbranche lebt von Häusern. Alle Gebäude, die sich auf unseren Grundstücken befinden, werden daher von uns sorgfältig technisch überwacht und optimiert.
 
 Dies umfasst im Normalbetrieb das Controlling der lückenloser Wartung und Prüfung aller haustechnischer Anlagen und Einrichtungen wie beispielsweise Heizung, Lüftung, Aufzüge sowie automatische Türen und Rolltore. Auch die Gewährleistung sämtlicher sicherheitstechnischer Aspekte stehen hierbei im Fokus. Hierunter fallen insbesondere der Brand-, Arbeits- und Blitzschutz. Unsere Techniker beraten bei diesen Themen die zuständigen Asset Manager der jeweiligen Immobilie.

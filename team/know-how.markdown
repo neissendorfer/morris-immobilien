@@ -3,6 +3,8 @@ title: Know-how
 date: 2017-03-05 15:47:00 +01:00
 ---
 
+![david-buecherregal.jpg](/uploads/david-buecherregal.jpg)
+
 Die individuellen Stärken unserer einzelnen Mitarbeiter bündeln wir zu einem schlagkräftigen Team. Durch unsere besonders kollegiale Zusammenarbeit achten wir stets darauf, uns gegenseitig in unserer professionellen Entwicklung nach Kräften zu unterstützen.
 
 Dabei stehen drei Aspekte im Vordergrund:
