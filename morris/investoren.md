@@ -1,7 +1,7 @@
 ---
 title: Investoren
-contact: alex
 date: 2017-03-05 16:02:00 +01:00
+contact: alex
 ---
 
 ![investoren.jpg]({{ site.baseurl }}/uploads/investoren.jpg){: .uk-align-center .uk-align-right@s .uk-border-rounded .uk-width-medium }

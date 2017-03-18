@@ -1,9 +1,8 @@
 ---
 title: Asset Management
-contact: david
 date: 2017-03-05 15:55:00 +01:00
+contact: david
 ---
-
 
 <a href="#!" uk-toggle="target: #modal-center">
   <img src="{{ site.baseurl }}/uploads/asset-management.jpg" alt="Asset Management" class="uk-align-center uk-align-right@m uk-border-rounded uk-width-medium" />

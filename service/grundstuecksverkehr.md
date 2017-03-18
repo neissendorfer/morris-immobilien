@@ -1,7 +1,7 @@
 ---
 title: Grundstücksverkehr
-contact: alex
 date: 2017-03-05 15:56:00 +01:00
+contact: alex
 ---
 
 ![grundstuecksverkehr.jpg]({{ site.baseurl }}/uploads/grundstuecksverkehr.jpg){: .uk-align-center .uk-align-right@s .uk-border-rounded .uk-width-medium }

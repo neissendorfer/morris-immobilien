@@ -1,7 +1,7 @@
 ---
 title: Bautechnik
-contact: franz
 date: 2017-03-05 15:53:00 +01:00
+contact: franz
 ---
 
 ![bautechnik.jpg]({{ site.baseurl }}/uploads/bautechnik.jpg){: .uk-align-center .uk-align-right@s .uk-border-rounded .uk-width-medium }
