@@ -1,9 +1,13 @@
 ---
 title: Asset Management
+contact: david
 date: 2017-03-05 15:55:00 +01:00
 ---
 
-![asset-management.jpg](/uploads/asset-management.jpg)
+
+<a href="#!" uk-toggle="target: #modal-center">
+  <img src="{{ site.baseurl }}/uploads/asset-management.jpg" alt="Asset Management" class="uk-align-center uk-align-right@m uk-border-rounded uk-width-medium" />
+</a>
 
 Wir führen selbst alle Aufgaben durch, welche aus dem Anspruch an ein professionelles Asset Management erwachsen.
 
@@ -15,7 +19,9 @@ Im Bereich des Mietvertragsmanagements sind unsere Asset Manager dafür verantw
 
 Um all diese Aufgaben erfüllen zu können, erstellen wir regelmäßige Bestands-, Markt- und Potenzialanalysen, die als Grundlage für die Entwicklung und Umsetzung geeigneter Optimierungsstrategien für die Immobilien dienen. Diese Überlegungen sind das Herzstück unserer Bewirtschaftungsstrategien und werden auch stets vor dem Erwerb neuer Grundstücke im Rahmen der Ankaufsprüfung angestellt.
 
-**Ihr Ansprechpartner:**
-
-David C. Jones, Leiter Asset Management
-eMail: jones@morris-immobilien.de
+<div id="modal-center" uk-modal="center: true">
+  <div class="uk-modal-dialog">
+    <button class="uk-modal-close-outside" type="button" uk-close></button>
+    <img src="{{ site.baseurl }}/uploads/asset-management.jpg" alt="Asset Management">
+  </div>
+</div>

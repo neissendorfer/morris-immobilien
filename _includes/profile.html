@@ -1,0 +1,33 @@
+{% assign target = site.data.people[include.person] %}
+
+{% if include.alt %}
+  {% assign css_class = "uk-card-media-left uk-cover-container" %}
+{% else %}
+  {% assign css_class = "uk-flex-last@s uk-card-media-right uk-cover-container" %}
+{% endif %}
+
+<div class="uk-card uk-card-default uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-large-bottom" uk-grid>
+  {% if target.image %}
+  <div class="{{ css_class }}">
+    <img src="{{ site.baseurl }}/uploads/{{ target.image }}" alt="" uk-cover>
+    <canvas width="600" height="400"></canvas>
+  </div>
+  {% endif %}
+  <div>
+    <div class="uk-card-body">
+      <h3 class="uk-card-title uk-margin-remove-bottom">{{ target.name }}</h3>
+      <p class="uk-text-meta uk-margin-remove-top">{{ target.title }}</p>
+      <ul class="uk-list">
+        <li class="uk-text-small uk-text-nowrap">
+          <span uk-icon="icon: phone" class="uk-margin-small-right"></span>
+          <a href="tel:+49 89 {{ target.phone }}" rel="tel" class="uk-link-reset">(089) {{ target.phone }}</a>
+        </li>
+        <li class="uk-text-small uk-text-nowrap">
+          <span uk-icon="icon: mail" class="uk-margin-small-right"></span>
+          <a href="mailto:{{ target.email }}" class="uk-link-reset">{{ target.email }}</a>
+        </li>
+      </ul>
+      <p class="uk-text-small">{{ target.vita }}</p>
+    </div>
+  </div>
+</div>

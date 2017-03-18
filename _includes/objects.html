@@ -1,0 +1,20 @@
+<div class="uk-grid-match uk-grid-large uk-child-width-1-2@s" uk-grid>
+
+  {% for object in site.data.objects %}
+    <div>
+
+      <div class="uk-card uk-card-default uk-card-hover">
+        <div class="uk-card-media-top">
+          <img src="{{ site.baseurl }}/assets/images/objects/{{ object.image }}" alt="{{ object.name }}">
+        </div>
+        <div class="uk-card-body">
+          <h3 class="uk-card-title">{{ object.name }}</h3>
+          <p>{{ object.desc }}</p>
+        </div>
+      </div>
+
+    </div>
+  {% endfor %}
+
+</div>
+<hr />

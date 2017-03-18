@@ -1,0 +1,65 @@
+<div class="uk-section uk-section-secondary uk-light">
+  <div class="uk-container">
+
+    <h1 class="uk-heading-line uk-margin-large-bottom">
+      <span>
+        {% include icon.html icon="morris-immobilien" css="icon-footer" %}
+      </span>
+    </h1>
+
+    <div class="uk-grid-divider uk-child-width-expand@m" uk-grid>
+
+      {% for nav in site.data.nav %}
+        <div>
+          <h6 class="uk-text-uppercase">{{ nav.name }}</h6>
+
+          <ul class="uk-list uk-list-large">
+            {% for item in nav.pages %}
+              <li class="uk-text-small uk-text-muted">
+                <a href="{{ site.baseurl }}/{{ nav.url }}/{{ item.url }}" class="uk-link-reset">{{ item.name }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+
+      <div>
+        <h6 class="uk-text-uppercase">Anschrift</h6>
+        <ul class="uk-list">
+          <li class="uk-text-small uk-text-nowrap">
+            <span uk-icon="icon: home" class="uk-margin-small-right"></span>
+            Rote-Kreuz-Straße 8
+          </li>
+          <li class="uk-text-small uk-text-nowrap">
+            <span uk-icon="icon: location" class="uk-margin-small-right"></span>
+            85737 Ismaning
+          </li>
+          <li class="uk-text-small uk-text-nowrap">
+            <span uk-icon="icon: phone" class="uk-margin-small-right"></span>
+            <a href="tel:+49 89 203 341 46" rel="tel" class="uk-link-reset">(089) 203 341 46</a>
+          </li>
+          <li class="uk-text-small uk-text-nowrap">
+            <span uk-icon="icon: mail" class="uk-margin-small-right"></span>
+            <a href="mailto:info@morris-immobilien.de" class="uk-link-reset">info@morris-immobilien.de</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="uk-child-width-expand uk-margin-large-top uk-text-small uk-text-muted" uk-grid>
+      <div>
+        <small><a href="{{ site.baseurl }}{% link impressum.md %}" class="uk-link-reset">Impressum</a></small>
+      </div>
+
+      <div class="uk-text-center">
+        <a href="https://www.facebook.com/neissendorfergruppe" class="uk-link-reset"><span uk-icon="icon: facebook"></span></a>
+      </div>
+
+      <div class="uk-text-right">
+        <!--//-->
+      </div>
+    </div>
+
+  </div>
+</div>

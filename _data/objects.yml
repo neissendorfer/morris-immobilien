@@ -1,0 +1,23 @@
+- name: Reichertshofen
+  desc: Nahversorgungszentrum bei Pfaffenhofen an der Ilm
+  image: reichertshofen.jpg
+
+- name: Arnstorf
+  desc: Fachmarktzentrum in Niederbayern
+  image: arnstorf.jpg
+
+- name: Münchberg
+  desc: Nahversorgungszentrum bei Hof
+  image: muenchberg.jpg
+
+- name: Landau
+  desc: Fachmarktzentrum in Landau an der Isar
+  image: landau.jpg
+
+- name: Landsberg
+  desc: Max-Planck-Center in Landsberg am Lech
+  image: landsberg.jpg
+
+- name: Cham
+  desc: Gewerbeobjekt in Cham
+  image: cham.jpg

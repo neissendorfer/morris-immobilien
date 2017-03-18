@@ -1,0 +1,16 @@
+{% assign target = site.data.people[include.person] %}
+
+<h6 class="uk-text-uppercase">Ihr Ansprechpartner</h6>
+<hr class="uk-divider-small">
+
+<div class="uk-card uk-card-default uk-width-1-2@m">
+  <div class="uk-card-header">
+    <h3 class="uk-card-title uk-margin-remove-bottom">{{ target.name }}</h3>
+    <p class="uk-text-meta uk-margin-remove-top">
+      {{ target.title }}
+      <hr />
+      <span uk-icon="icon: mail"></span>
+      <a href="mailto:{{ target.email }}" class="uk-link-reset">{{ target.email }}</a>
+    </p>
+  </div>
+</div>

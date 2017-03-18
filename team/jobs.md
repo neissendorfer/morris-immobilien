@@ -3,7 +3,7 @@ title: Jobs
 date: 2017-03-05 15:48:00 +01:00
 ---
 
-![jobs.jpg](/uploads/jobs.jpg)
+![jobs.jpg]({{ site.baseurl }}/uploads/jobs.jpg){: .uk-align-center .uk-align-right@s .uk-border-rounded .uk-width-medium }
 
 Unsere verantwortungsvolle Tätigkeit erfordert umfangreiche Fachkenntnisse in der
 Immobilienwirtschaft und vollste Leidenschaft für unsere Arbeit.
