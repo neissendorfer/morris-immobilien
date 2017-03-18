@@ -4,11 +4,14 @@ date: 2017-03-05 16:04:00 +01:00
 ---
 
 # Morris Immobilien GmbH
-Rote-Kreuz-Straße 8
+
+![maps.png]({{ site.baseurl }}/uploads/maps.png){: .uk-align-center .uk-align-right@s .uk-border-rounded .uk-width-medium }
+
+Rote-Kreuz-Straße 8<br />
 85737 Ismaning
 
-eMail: info@morris-immobilien.de
-Tel.: (089) 203 341 47
+eMail: [info@morris-immobilien.de](mailto:@morris-immobilien.de){: .uk-link-reset }<br />
+Tel.: [(089) 203 341 46](tel:+49 89 203 341 46){: .uk-link-reset }
 
 Geschäftsführer: Alexander Neißendorfer, Franz L. Neißendorfer Handelsregister: Amtsgericht München HRB 158 065
 
