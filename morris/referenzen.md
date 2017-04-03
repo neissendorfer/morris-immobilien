@@ -3,7 +3,7 @@ title: Referenzen
 date: 2017-03-05 15:58:00 +01:00
 ---
 
-Hier finden Sie eine kleine Auswahl von Immobilien, welche wir in den letzten Jahren erworben haben:
+Hier finden Sie eine Auswahl von Immobilien, welche wir in den letzten Jahren erworben haben:
 
 {% include objects.html %}
 
