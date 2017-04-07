@@ -10,7 +10,7 @@ contact: david
 
 Wir führen selbst alle Aufgaben durch, welche aus dem Anspruch an ein professionelles Asset Management erwachsen.
 
-Im Bereich der kaufmännischen Verwaltung legen wir großen Wert auf die persönliche Betreuung unserer Mieter, die bei uns einen direkten Draht zu den Sachbearbeitern und unbürokratische Entscheidungen erwarten dürfen. Auch die Beauftragung und das Controlling sämtlicher Leistungen rund um den Immobilienbetrieb fallen in diesen Bereich, beispielsweise die Energielieferung, Versicherung, Hausmeister, Reinigung oder Winterdienst. Alle entstehende Kosten werden von unserem Asset Management kritisch geprüft und sorgfältig mit den Mietern abgerechnet.
+Im Bereich der kaufmännischen Verwaltung legen wir großen Wert auf die persönliche Betreuung unserer Mieter, die bei uns einen direkten Draht zu den Sachbearbeitern und unbürokratische Entscheidungen erwarten dürfen. Auch die Beauftragung und das Controlling sämtlicher Leistungen rund um den Immobilienbetrieb fallen in diesen Bereich, beispielsweise die Energielieferung, Versicherung, Hausmeister, Reinigung oder Winterdienst. Alle entstehenden Kosten werden von unserem Asset Management kritisch geprüft und sorgfältig mit den Mietern abgerechnet.
 
 Gemeinsam mit unserer Bautechnik sorgt das Asset Management dafür, dass für sämtliche technische Anlagen geeignete Wartungs- und Serviceverträge bestehen, Mängel zügig beseitigt und die Arbeiten zuverlässig ausgeführt werden. Bei Revitalisierungsprojekten ist außerdem eine enge Abstimmung darüber notwendig, welche technischen Maßnahmen auch kaufmännisch sinnvoll sind.
 
