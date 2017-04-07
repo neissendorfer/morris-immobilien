@@ -3,23 +3,30 @@
 <h6 class="uk-text-uppercase">Ihr Ansprechpartner</h6>
 
 <div class="uk-card uk-card-default uk-width-1-2@m">
+
   <div class="uk-card-header">
-    <h3 class="uk-card-title uk-margin-remove-bottom">{{ target.name }}</h3>
-    <p class="uk-text-meta uk-margin-remove-top">
-      {{ target.title }}
-      <hr />
-
-      <ul class="uk-list">
-        <li class="uk-text-small uk-text-nowrap">
-          <span uk-icon="icon: phone" class="uk-margin-small-right"></span>
-          <a href="tel:+49 89 {{ target.phone }}" rel="tel" class="uk-link-reset">(089) {{ target.phone }}</a>
-        </li>
-        <li class="uk-text-small uk-text-nowrap">
-          <span uk-icon="icon: mail" class="uk-margin-small-right"></span>
-          <a href="mailto:{{ target.email }}" class="uk-link-reset">{{ target.email }}</a>
-        </li>
-      </ul>
-
-    </p>
+    <div class="uk-grid-small uk-flex-middle" uk-grid>
+      <div class="uk-width-auto">
+        <img class="uk-border-circle" width="52" height="52" src="{{ site.baseurl }}/assets/images/contact/{{ target.image }}">
+      </div>
+      <div class="uk-width-expand">
+        <h3 class="uk-card-title uk-margin-remove-bottom">{{ target.name }}</h3>
+        <p class="uk-text-meta uk-margin-remove-top">{{ target.title }}</p>
+      </div>
+    </div>
   </div>
+
+  <div class="uk-card-body">
+    <ul class="uk-list">
+      <li class="uk-text-small uk-text-nowrap">
+        <span uk-icon="icon: phone" class="uk-margin-small-right"></span>
+        <a href="tel:+49 89 {{ target.phone }}" rel="tel" class="uk-link-reset">(089) {{ target.phone }}</a>
+      </li>
+      <li class="uk-text-small uk-text-nowrap">
+        <span uk-icon="icon: mail" class="uk-margin-small-right"></span>
+        <a href="mailto:{{ target.email }}" class="uk-link-reset">{{ target.email }}</a>
+      </li>
+    </ul>
+  </div>
+
 </div>
