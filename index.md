@@ -4,7 +4,7 @@ date: 2017-03-05 15:39:00 +01:00
 ---
 
 <div class="uk-inline uk-text-center">
-  <img src="{{ site.baseurl }}/uploads/team.jpg" class="uk-border-rounded uk-width-xlarge" alt="Morris Team">
+  <img src="{{ site.baseurl }}/uploads/team2017.jpg" class="uk-border-rounded uk-width-xlarge" alt="Morris Team">
   <div class="uk-overlay uk-light uk-position-bottom">
     <p>Herzlich Willkommen bei Morris Immobilien!</p>
   </div>
