@@ -9,7 +9,7 @@ date: 2018-05-24 16:30:00 +02:00
 
 Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 
-Rote-Kreuz-Straße 8<br />
+Buchenstr. 7<br />
 85737 Ismaning
 
 eMail: [info@morris-immobilien.de](mailto:@morris-immobilien.de){: .uk-link-reset }<br />

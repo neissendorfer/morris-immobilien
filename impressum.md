@@ -7,7 +7,7 @@ date: 2017-03-05 16:04:00 +01:00
 
 ![maps.png]({{ site.baseurl }}/uploads/maps.png){: .uk-align-center .uk-align-right@s .uk-border-rounded .uk-width-medium }
 
-Rote-Kreuz-Straße 8<br />
+Buchenstr. 7<br />
 85737 Ismaning
 
 eMail: [info@morris-immobilien.de](mailto:@morris-immobilien.de){: .uk-link-reset }<br />
