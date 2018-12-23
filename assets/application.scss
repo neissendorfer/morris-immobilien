@@ -27,6 +27,11 @@
   }
 }
 
+.icon-header {
+  width: 160px;
+  height: 80px;
+}
+
 .icon-footer {
   width: 260px;
   height: 130px;
@@ -35,4 +40,12 @@
 .uk-subnav-pill > .uk-active > a {
   background-color: #caaa4f !important;
   color: #fff;
+}
+
+.image-grayscale {
+  filter: grayscale(100%);
+
+  &:hover {
+    filter: grayscale(0%);
+  }
 }

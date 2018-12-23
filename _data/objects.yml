@@ -1,5 +1,5 @@
 - name: Pfaffenhofen an der Ilm
-  desc: Nahversorgungszentrum
+  desc: Supermarkt
   image: reichertshofen.jpg
 
 - name: Niederbayern
@@ -15,9 +15,13 @@
   image: landau.jpg
 
 - name: Landsberg am Lech
-  desc: Max-Planck-Center
+  desc: Einkaufszentrum
   image: landsberg.jpg
 
 - name: Cham
   desc: Gewerbeobjekt
   image: cham.jpg
+
+- name: Passau
+  desc: Nahversorgungszentrum
+  image: passau.jpg

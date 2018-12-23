@@ -1,26 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-  {% include head.html %}
-</head>
-<body>
-  {% include header.html %}
+---
+layout: default
+---
 
-  {% include navigation.html %}
+{% include logo.html %}
 
-  <div class="uk-section uk-padding-remove-top uk-margin-medium-top">
-    <div class="uk-container uk-container-small">
-      <h1 class="uk-heading-primary">{{ page.title }}</h1>
-      <hr class="uk-divider-small">
+<div class="uk-section uk-padding-remove-top uk-margin-medium-top">
+  <div class="uk-container uk-container-small">
+    <h1 class="uk-heading-primary">{{ page.title }}</h1>
+    <hr class="uk-divider-small">
 
-      {{ content }}
+    {{ content }}
 
-      {% if page.contact %}
-        {% include contact.html person=page.contact %}
-      {% endif %}
-    </div>
+    {% if page.contact %}
+      {% include team_contact.html person=page.contact %}
+    {% endif %}
   </div>
-
-  {% include footer.html %}
-</body>
-</html>
+</div>

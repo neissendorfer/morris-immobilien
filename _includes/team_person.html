@@ -1,19 +1,9 @@
 {% assign target = site.data.people[include.person] %}
 
-{% if include.alt %}
-  {% assign css_class = "uk-card-media-left uk-cover-container" %}
-{% else %}
-  {% assign css_class = "uk-flex-last@s uk-card-media-right uk-cover-container" %}
-{% endif %}
+<div>
+  <div class="uk-card uk-card-default">
+    <img src="{{ site.baseurl }}/assets/images/contact/{{ target.image }}" alt="{{ target.name }}">
 
-<div class="uk-card uk-card-default uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-large-bottom" uk-grid>
-  {% if target.image %}
-  <div class="{{ css_class }}">
-    <img src="{{ site.baseurl }}/assets/images/profile/{{ target.image }}" alt="{{ target.name }}" uk-cover>
-    <canvas width="600" height="400"></canvas>
-  </div>
-  {% endif %}
-  <div>
     <div class="uk-card-body">
       <h3 class="uk-card-title uk-margin-remove-bottom">{{ target.name }}</h3>
       <p class="uk-text-meta uk-margin-remove-top">{{ target.title }}</p>
@@ -30,8 +20,17 @@
           <a href="mailto:{{ target.email }}" class="uk-link-reset">{{ target.email }}</a>
         </li>
       </ul>
+    </div>
+    <div class="uk-card-footer">
+      <a href="#modal-team-{{ target.name | slugify }}" uk-toggle class="uk-button uk-button-text">Read more</a>
+    </div>
+  </div>
 
-      <p class="uk-text-small uk-margin-medium-top">{{ target.vita }}</p>
+  <div id="modal-team-{{ target.name | slugify }}" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+      <button class="uk-modal-close-default" type="button" uk-close></button>
+      {% include team_contact.html person=include.person %}
+      <p>{{ target.vita }}</p>
     </div>
   </div>
 </div>

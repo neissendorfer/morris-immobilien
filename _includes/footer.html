@@ -1,29 +1,16 @@
-<div class="uk-section uk-section-secondary uk-light">
+<div class="uk-section uk-section-default">
   <div class="uk-container">
 
-    <h1 class="uk-heading-line uk-margin-large-bottom">
-      <span>
-        {% include icon.html icon="morris-immobilien" css="icon-footer" %}
-      </span>
-    </h1>
+    <div uk-grid>
+      <div class="uk-width-expand@m">
+        <h1 class="uk-heading-line uk-margin-large-bottom">
+          <span>
+            {% include icon.html icon="morris-immobilien" css="icon-footer" %}
+          </span>
+        </h1>
+      </div>
 
-    <div class="uk-grid-divider uk-child-width-expand@m" uk-grid>
-
-      {% for nav in site.data.nav %}
-        <div>
-          <h6 class="uk-text-uppercase">{{ nav.name }}</h6>
-
-          <ul class="uk-list uk-list-large">
-            {% for item in nav.pages %}
-              <li class="uk-text-small uk-text-muted">
-                <a href="{{ site.baseurl }}/{{ nav.url }}/{{ item.url }}" class="uk-link-reset">{{ item.name }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endfor %}
-
-      <div>
+      <div class="uk-width-1-4@m">
         <h6 class="uk-text-uppercase">Anschrift</h6>
         <ul class="uk-list">
           <li class="uk-text-small uk-text-nowrap">
@@ -58,7 +45,7 @@
       </div>
 
       <div class="uk-text-right">
-        <!--//-->
+        <small>Icons by <a href="https://icons8.com" class="uk-link-reset">Icons8</a></small>
       </div>
     </div>
 

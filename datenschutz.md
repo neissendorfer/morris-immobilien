@@ -1,6 +1,5 @@
 ---
 title: Datenschutz
-date: 2018-05-24 16:30:00 +02:00
 ---
 
 ## Datenschutz

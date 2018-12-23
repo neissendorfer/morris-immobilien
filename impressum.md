@@ -1,11 +1,10 @@
 ---
 title: Impressum
-date: 2017-03-05 16:04:00 +01:00
 ---
 
 # Morris Immobilien GmbH
 
-![maps.png]({{ site.baseurl }}/uploads/maps.png){: .uk-align-center .uk-align-right@s .uk-border-rounded .uk-width-medium }
+![maps.png]({{ site.baseurl }}/assets/images/maps.png){: .uk-align-center .uk-align-right@s .uk-border-rounded .uk-width-medium }
 
 Buchenstr. 7<br />
 85737 Ismaning

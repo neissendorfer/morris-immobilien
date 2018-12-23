@@ -1,34 +1,22 @@
-<ul class="uk-flex-center uk-subnav uk-subnav-pill" uk-margin>
-  {% for nav in site.data.nav %}
-    {% assign is_active = nil %}
-    {% assign first_item = nav.pages | first %}
+<div class="uk-sektion uk-background-muted uk-section-nav" uk-sticky="sel-target: .uk-section-nav; cls-active: uk-navbar-sticky">
+  <div class="uk-container">
 
-    {% if page.dir contains nav.url %}
-      {% assign is_active = "uk-active" %}
-    {% endif %}
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+      <div class="uk-navbar-left uk-padding-small">
+        <a href="/" class="uk-link-reset">
+          {% include icon.html icon="morris-immobilien" css="icon-header" %}
+        </a>
+      </div>
 
-    <li class="{{ is_active }}"><a href="{{ site.baseurl }}/{{ nav.url }}/{{ first_item.url }}/">{{ nav.name }}</a></li>
-  {% endfor %}
-</ul>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          <li><a href="{{ site.baseurl }}/#team" uk-scroll="offset: 50;">Team</a></li>
+          <li><a href="{{ site.baseurl }}/#referenzen" uk-scroll="offset: 50;">Referenzen</a></li>
+          <li><a href="{{ site.baseurl }}/#philosophie" uk-scroll="offset: 50;">Philosophie</a></li>
+          <li><a href="{{ site.baseurl }}/#kontakt" uk-scroll="offset: 50;">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
 
-
-{% for nav in site.data.nav %}
-  {% assign is_active = nil %}
-
-  {% if page.dir contains nav.url %}
-    <ul class="uk-flex-center uk-subnav uk-subnav-divider" uk-margin>
-      {% for item in nav.pages %}
-        {% assign is_active = nil %}
-        {% assign item_slug = "/" | append: nav.url | append: "/" | append: item.url | append: "/" %}
-
-        {% if page.dir contains item_slug %}
-          {% assign is_active = "uk-active" %}
-        {% endif %}
-
-        <li class="{{ is_active }}"><a href="{{ site.baseurl }}/{{ nav.url }}/{{ item.url }}/">{{ item.name }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-{% endfor %}
-
-<hr />
+  </div>
+</div>

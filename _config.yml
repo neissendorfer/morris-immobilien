@@ -1,13 +1,11 @@
 ---
 title: Morris Immobilien
-timezone: Europe/Amsterdam
+
 collections:
   posts:
     title: Posts
     output: true
-  uploads:
-    title: Uploads
-    output: true
+
 defaults:
 - scope:
     path: ''
@@ -20,4 +18,5 @@ defaults:
     type: pages
   values:
     layout: page
+
 permalink: pretty
