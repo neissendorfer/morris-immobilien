@@ -1,27 +1,37 @@
-<div class="uk-section uk-section-muted">
+<div class="uk-section uk-section-secondary" id="referenzen">
   <div class="uk-container">
 
-    <div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow="animation: push; finite: true; min-height: 330; max-height: 440">
-      <ul class="uk-slideshow-items">
-        {% for object in site.data.objects %}
-          <li>
-            <img src="{{ site.baseurl }}/assets/images/objects/{{ object.image }}" alt="{{ object.name }}" uk-cover>
-            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-              <h3 class="uk-margin-remove">{{ object.name }}</h3>
-              <p class="uk-margin-remove">{{ object.desc }}</p>
-            </div>
-          </li>
-        {% endfor %}
-      </ul>
+    <div class="uk-flex-center" uk-grid>
+      <div class="uk-width-4-5@m">
 
-      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        <h1>Referenzen</h1>
+        <hr class="uk-divider-small" />
+        <p>Hier finden Sie eine Auswahl von Immobilien, welche wir in den letzten Jahren erworben haben.</p>
 
-      <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin">
-        {% for object in site.data.objects %}
-          <li uk-slideshow-item="{{ forloop.index0 }}"><a href="#"></a></li>
-        {% endfor %}
-      </ul>
+        <div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow="autoplay: true; animation: push; min-height: 330; max-height: 440">
+          <ul class="uk-slideshow-items">
+            {% for object in site.data.objects %}
+              <li>
+                <img src="{{ site.baseurl }}/assets/images/objects/{{ object.image }}" alt="{{ object.name }}" uk-cover>
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                  <h3 class="uk-margin-remove">{{ object.name }}</h3>
+                  <p class="uk-margin-remove">{{ object.desc }}</p>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+          <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin">
+            {% for object in site.data.objects %}
+              <li uk-slideshow-item="{{ forloop.index0 }}"><a href="#"></a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </div>
     </div>
 
   </div>

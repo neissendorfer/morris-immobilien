@@ -4,14 +4,12 @@
     <h1 class="uk-heading-primary">Team</h1>
     <hr class="uk-divider-small" />
 
-    <div class="uk-grid-match uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid uk-height-match=".uk-card-body">
-      {% include team_person.html person="franz" %}
+    {% include team_person.html person="franz" alt="true" %}
 
-      {% include team_person.html person="alex" %}
+    {% include team_person.html person="alex" %}
 
-      {% include team_person.html person="david" %}
+    {% include team_person.html person="david" alt="true" %}
 
-      {% include team_person.html person="kim" %}
-    </div>
+    {% include team_person.html person="kim" %}
   </div>
 </div>

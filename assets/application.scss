@@ -1,19 +1,22 @@
 ---
 ---
 
-// https://fonts.google.com/specimen/Raleway?selection.family=Lusitana:400|Raleway:300,400
-//.font-morris {
-//  font-family: 'Lusitana', serif;
-//  font-weight: 700;
-//}
+$morris-brand-gold: #b8933b;
 
-//.font-immo {
-//  font-family: 'Raleway', sans-serif;
-//}
+// uikit scss
+$global-primary-background: $morris-brand-gold;
+
+@import "uikit/variables-theme.scss";
+@import "uikit/mixins-theme.scss";
+
+@import "uikit/uikit-theme.scss";
+
+// font-family: 'Lusitana', serif;
+// font-family: 'Open Sans', sans-serif;
 
 .uk-heading-primary {
   font-family: "Lusitana", serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 2.5rem !important;
 }
 
@@ -42,10 +45,32 @@
   color: #fff;
 }
 
+.line-height-medium {
+  line-height: 1.75;
+}
+
 .image-grayscale {
   filter: grayscale(100%);
 
   &:hover {
     filter: grayscale(0%);
+  }
+}
+
+.nav-morris-brand {
+  border-top: 3px solid #b8933b;
+
+  .uk-link-reset {
+    color: $morris-brand-gold !important;
+    &:hover {
+      color: $morris-brand-gold;
+    }
+  }
+}
+
+.uk-divider-small {
+  &::after {
+    border-color: $morris-brand-gold;
+    border-width: 3px;
   }
 }

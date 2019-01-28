@@ -11,7 +11,7 @@ Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Date
 Buchenstr. 7<br />
 85737 Ismaning
 
-eMail: [info@morris-immobilien.de](mailto:@morris-immobilien.de){: .uk-link-reset }<br />
+eMail: [info@morris-immobilien.de](mailto:info@morris-immobilien.de){: .uk-link-reset }<br />
 Tel.: [(089) 203 341 47](tel:+49 89 203 341 47){: .uk-link-reset }
 
 Geschäftsführer: Alexander Neißendorfer, Franz L. Neißendorfer Handelsregister: Amtsgericht München HRB 158 065

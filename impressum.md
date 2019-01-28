@@ -2,19 +2,19 @@
 title: Impressum
 ---
 
-# Morris Immobilien GmbH
-
-![maps.png]({{ site.baseurl }}/assets/images/maps.png){: .uk-align-center .uk-align-right@s .uk-border-rounded .uk-width-medium }
+## Morris Immobilien GmbH
 
 Buchenstr. 7<br />
 85737 Ismaning
 
-eMail: [info@morris-immobilien.de](mailto:@morris-immobilien.de){: .uk-link-reset }<br />
+eMail: [info@morris-immobilien.de](mailto:info@morris-immobilien.de){: .uk-link-reset }<br />
 Tel.: [(089) 203 341 47](tel:+49 89 203 341 47){: .uk-link-reset }
 
-Geschäftsführer: Alexander Neißendorfer, Franz L. Neißendorfer Handelsregister: Amtsgericht München HRB 158 065
+Geschäftsführer: Alexander Neißendorfer, Franz L. Neißendorfer <br />
+Handelsregister: Amtsgericht München HRB 158 065
 
-Die Genehmigung nach § 34 Gewerbeordnung wurde durch das Landratsamt München erteilt. Unsere Aufsichtsbehörde ist das Landratsamt München, Mariahilfplatz 17, 81541 München.
+Die Genehmigung nach § 34 Gewerbeordnung wurde durch das Landratsamt München erteilt. <br />
+Unsere Aufsichtsbehörde ist das Landratsamt München, Mariahilfplatz 17, 81541 München.
 
 ---
 
