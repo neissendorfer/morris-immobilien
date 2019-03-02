@@ -2,11 +2,13 @@
 
 {% if include.alt %}
   {% assign css_class = "uk-card-media-left uk-cover-container" %}
+  {% assign scrollspy = "cls: uk-animation-slide-left-small; repeat: true" %}
 {% else %}
   {% assign css_class = "uk-flex-last@s uk-card-media-right uk-cover-container" %}
+  {% assign scrollspy = "cls: uk-animation-slide-right-small; repeat: true" %}
 {% endif %}
 
-<div class="uk-card uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-large-bottom" uk-grid>
+<div class="uk-card uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-large-bottom" uk-grid uk-scrollspy="{{ scrollspy }}">
   {% if target.image %}
   <div class="{{ css_class }}">
     <img src="{{ site.baseurl }}/assets/images/profile/{{ target.image }}" alt="{{ target.name }}" uk-cover>
