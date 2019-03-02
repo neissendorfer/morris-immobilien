@@ -1,4 +1,4 @@
-<div class="uk-sektion uk-background-default uk-section-nav nav-morris-brand" uk-sticky="sel-target: .uk-section-nav; cls-active: uk-navbar-sticky;">
+<div class="uk-sektion uk-background-default uk-section-nav nav-morris-brand" uk-sticky="sel-target: .uk-section-nav; cls-active: uk-navbar-sticky; top: #welcome; bottom: #sponsor; animation: uk-animation-slide-top;">
   <div class="uk-container">
 
     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar="mode: click">
@@ -16,7 +16,7 @@
             </a>
             <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li><a href="{{ site.baseurl }}/#team" uk-scroll="offset: 100;">Team</a></li>
+                <li><a href="{{ site.baseurl }}/#team" uk-scroll="offset: 10;">Team</a></li>
                 <li><a href="{{ site.baseurl }}/#referenzen" uk-scroll="offset: 120;">Referenzen</a></li>
                 <li><a href="{{ site.baseurl }}/#philosophie" uk-scroll="offset: 110;">Philosophie</a></li>
                 <li><a href="{{ site.baseurl }}/#kontakt" uk-scroll="offset: 100;">Kontakt</a></li>
@@ -25,11 +25,11 @@
           </li>
         </ul>
 
-        <ul class="uk-navbar-nav uk-visible@m">
-          <li><a href="{{ site.baseurl }}/#team" uk-scroll="offset: 100;" class="uk-button uk-button-text">Team</a></li>
-          <li><a href="{{ site.baseurl }}/#referenzen" uk-scroll="offset: 120;" class="uk-button uk-button-text">Referenzen</a></li>
-          <li><a href="{{ site.baseurl }}/#philosophie" uk-scroll="offset: 110;" class="uk-button uk-button-text">Philosophie</a></li>
-          <li><a href="{{ site.baseurl }}/#kontakt" uk-scroll="offset: 100;" class="uk-button uk-button-text">Kontakt</a></li>
+        <ul class="uk-navbar-nav uk-visible@m" uk-scrollspy-nav="closest: li; scroll: true;">
+          <li><a href="#team" uk-scroll="offset: 10;" class="uk-button uk-button-text">Team</a></li>
+          <li><a href="#referenzen" uk-scroll="offset: 120;" class="uk-button uk-button-text">Referenzen</a></li>
+          <li><a href="#philosophie" uk-scroll="offset: 110;" class="uk-button uk-button-text">Philosophie</a></li>
+          <li><a href="#kontakt" uk-scroll="offset: 100;" class="uk-button uk-button-text">Kontakt</a></li>
         </ul>
       </div>
     </nav>
