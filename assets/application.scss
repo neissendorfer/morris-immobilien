@@ -60,13 +60,7 @@ $global-primary-background: $morris-brand-gold;
 .nav-morris-brand {
   border-top: 3px solid #b8933b;
   border-bottom: 1px solid #e6e6e6;
-  position: absolute;
-  visibility: hidden;
-
-  &.uk-navbar-sticky {
-    position: inherit;
-    visibility: visible;
-  }
+  margin-top: -120px;
 
   .uk-link-reset {
     color: $morris-brand-gold !important;
