@@ -12,8 +12,8 @@
             {% for object in site.data.objects %}
               <li>
                 <img src="{{ site.baseurl }}/assets/images/objects/{{ object.image }}" alt="{{ object.name }}" uk-cover>
-                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                  <h3 class="uk-margin-remove">{{ object.name }}</h3>
+                <div class="uk-overlay uk-overlay-primary uk-position-top-left uk-padding-small">
+                  <h4 class="uk-margin-remove">{{ object.name }}</h4>
                   <p class="uk-margin-remove">{{ object.desc }}</p>
                 </div>
               </li>
