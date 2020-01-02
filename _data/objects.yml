@@ -1,3 +1,11 @@
+- name: Mindelheim
+  desc: Einkaufszentrum
+  image: mindelheim.jpg
+
+- name: Marktoberdorf
+  desc: Einkaufszentrum
+  image: marktoberdorf.jpg
+
 - name: Pfaffenhofen an der Ilm
   desc: Supermarkt
   image: reichertshofen.jpg
